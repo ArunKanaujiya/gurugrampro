@@ -24,7 +24,4 @@ urlpatterns = [
     path('student/',views.StudentApi.as_view()),
     path('api-token-auth/', v1.obtain_auth_token),
     path('register/',views.RegisterUser.as_view()),
-    path('add/',views.AddStudent,name='add'),
-    path('Show/<id>/',views.ShowStudent),
-
 ]
