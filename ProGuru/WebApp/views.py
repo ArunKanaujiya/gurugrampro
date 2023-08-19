@@ -9,7 +9,6 @@ from rest_framework import status
 from django.contrib.auth import authenticate
 from rest_framework.decorators import api_view
 from rest_framework.authtoken.models import Token
-from WebApp.forms import *
 from django.http import HttpResponseRedirect
 
 class RegisterUser(APIView):
